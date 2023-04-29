@@ -1,3 +1,6 @@
+body {
+  background-color: skyblue;
+}
 .mainContainer {
   width: 671px;
   height: 640px;
@@ -36,6 +39,7 @@
 
 .emailDiv {
   margin-top: 20px;
+  /* background-color: yellow; */
 }
 
 #btnEmail {
@@ -50,6 +54,7 @@
 
 .passWordContainer {
   padding-left: 50px;
+  /* background-color: black; */
 }
 
 .passWordDiv {
@@ -57,8 +62,8 @@
 }
 
 #btnPassword {
-  margin-top: 6px;
-  margin-top: 8px;
+  /* margin-top: 6px; */
+  /* margin-top: 8px; */
   outline: none;
   margin-top: 4px;
   height: 40px;
@@ -158,7 +163,7 @@
   padding-top: 6px;
   border-radius: 16px;
   border: 3px solid rgb(65, 65, 175);
-  color: rgb(65, 65, 175);
+  color: rgb(4, 4, 7);
 }
 
 .footTextDiv {
@@ -175,4 +180,43 @@
 #footerTextTwo {
   font-size: large;
   font-family: "Roboto", sans-serif;
+}
+@media only screen and (max-width: 768px) {
+  .mainContainer {
+    width: 100%;
+  }
+  .firstDiv {
+    width: 100%;
+  }
+  .secondDiv {
+    width: 100%;
+  }
+  .emailContainer {
+    padding: 0px;
+  }
+  #btnEmail {
+    width: 100%;
+  }
+  #btnPassword {
+    width: 100%;
+  }
+  #signBtn {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .passWordContainer {
+    padding-left: 0px;
+  }
+  #footerId {
+    width: 100%;
+  }
+  .titleDiv {
+    padding-top: 53px;
+    padding-left: 1px;
+  }
+  body {
+    /* margin: 0px; */
+    /* padding: 0px; */
+    /* box-sizing: border-box; */
+  }
 }
