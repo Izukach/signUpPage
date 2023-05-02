@@ -20,51 +20,39 @@
   <body>
     <div class="mainContainer">
       <div class="firstDiv">
+        <div class="secondContainer">
         <div class="secondDiv">
           <div class="titleDiv">
             <span id="titleSpan">Sign Up</span>
           </div>
           <div class="emailAndPasswordDiv">
             <div class="emailContainer">
-              <!-- <label for="Email"><br>Email</br></label>
+              <label for="Email"><br>Email</br></label>
               <input
                 type="text"
                 id="emailId"
                 placeholder="Enter Your Email"
                 name="email"
+                value=""
                 required
-              /> -->
-              <!-- <h3>Email</h3> -->
+              /> 
+              <span id = vaildEmail></span>
+             
 
-              <div class="emailDiv">
-                <span id="spanEmail">Email</span>
-              </div>
-              <div class="e">
-                <button id="btnEmail">
-                  <div class="iconDiv">
-                    <i class="fa-solid fa-eye-slash"></i></i>
-                  </div>
-                </button>
-              </div>
-            </div>
             <div class="passWordContainer">
-              <!-- <label for="Password"><br>Password</br></label>
+              <label for="Password"><br>Password</br></label>
 
               <input
-                type="text"
+                type="password"
                 id="Password"
-                placeholder="Enter Your Email"
+                placeholder="Enter Your Password"
                 
-                name="email"
-                required -->
-              <div class="passWordDiv">
-                <span id="spanPassword">Password</span>
-                <button id="btnPassword">
-                  <div class="icondiv">
-                    <i class="fa-solid fa-eye-slash"></i></i>
-                  </div>
-                </button>
-              </div>
+                value=""
+                name=""
+                required
+                >
+                <span id="vailPassword"></span>
+              
               <button id="signBtn">SIGN UP</button>
             </div>
             <footer id="footerId">
@@ -86,10 +74,15 @@
                 <span id="footerTextOne">Already a user ?</span>
                 <span id="footerTextTwo"><a href="www.google.com">LOGIN</a></span>
               </div>
+              
             </footer>
+          
+            </div>
+            
           </div>
         </div>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>

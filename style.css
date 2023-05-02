@@ -4,7 +4,7 @@ body {
 .mainContainer {
   width: 671px;
   height: 640px;
-  background-color: skyblue;
+  /* background-color: skyblue; */
   margin: auto;
   padding-top: 33px;
   box-sizing: border-box;
@@ -21,7 +21,7 @@ body {
 
 .titleDiv {
   padding-top: 80px;
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 
 #titleSpan {
@@ -34,7 +34,7 @@ body {
 }
 
 .emailContainer {
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 
 .emailDiv {
@@ -42,18 +42,20 @@ body {
   /* background-color: yellow; */
 }
 
-#btnEmail {
-  margin-top: 8px;
+#emailId {
+  /* margin-top: 8px; */
   outline: none;
   margin-top: 4px;
   height: 40px;
-  width: 400px;
+  width: 401px;
+  /* width: 100%; */
   border-radius: 4px;
   border-color: gray;
+  margin-bottom: 10px;
 }
 
 .passWordContainer {
-  padding-left: 50px;
+  /* padding-left: 50px; */
   /* background-color: black; */
 }
 
@@ -61,13 +63,13 @@ body {
   margin-top: 32px;
 }
 
-#btnPassword {
-  /* margin-top: 6px; */
-  /* margin-top: 8px; */
+#Password {
+  margin-top: 10px;
+  margin-top: 8px;
   outline: none;
   margin-top: 4px;
   height: 40px;
-  width: 400px;
+  width: 401px;
   border-radius: 4px;
   border-color: gray;
 }
@@ -92,7 +94,7 @@ body {
   background-color: rgb(242, 95, 144);
   color: white;
   border: none;
-  margin-left: 7px;
+  margin-left: 16px;
   margin-bottom: 37px;
 }
 
@@ -181,6 +183,13 @@ body {
   font-size: large;
   font-family: "Roboto", sans-serif;
 }
+.secondContainer {
+  margin: auto;
+  /* background-color: blue; */
+  width: 408px;
+  height: 577px;
+}
+
 @media only screen and (max-width: 768px) {
   .mainContainer {
     width: 100%;
@@ -213,10 +222,5 @@ body {
   .titleDiv {
     padding-top: 53px;
     padding-left: 1px;
-  }
-  body {
-    /* margin: 0px; */
-    /* padding: 0px; */
-    /* box-sizing: border-box; */
   }
 }
